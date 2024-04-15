@@ -23,12 +23,17 @@ This is a simple todo application built with React and Redux using the Vite buil
 2. Navigate to the project directory:
    cd todo-app
 3. Install dependencies:
-   npm install
+   1)Install Redux Toolkit
+      npm install @reduxjs/toolkit
+   2) Install Tailwind CSS:
+      npm install tailwindcss@latest postcss@latest autoprefixer@latest
+   3) Generate your Tailwind CSS configuration file:
+      npx tailwindcss init -p
 
-4. Run the App
+5. Run the App
    Start the development server: npm run dev
 
-5. Open your browser and go to http://localhost:3000 to view the app.
+6. Open your browser and go to http://localhost:3000 to view the app.
 
 Usage
 Add a new todo: Enter the todo title in the input field and press Enter.
